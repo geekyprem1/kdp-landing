@@ -29,7 +29,7 @@ export function FinalFinalCTA() {
               onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}
               className="w-full bg-gradient-to-r from-primary-500 to-primary-400 hover:from-primary-400 hover:to-primary-300 text-black font-black uppercase tracking-tight text-xl sm:text-2xl py-6 sm:py-8 rounded-xl shadow-[0_0_40px_rgba(255,138,0,0.4)] hover:shadow-[0_0_60px_rgba(255,138,0,0.6)] hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group mb-2"
             >
-              Get KDP Mafia For $67
+              Get KDP Mafia For $14.99
               <ArrowRight className="w-8 h-8 group-hover:translate-x-2 transition-transform" />
             </button>
             <p className="text-sm text-red-500 font-bold uppercase tracking-widest mt-2 mb-6 text-center">

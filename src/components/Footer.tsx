@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BookOpen } from "lucide-react";
 
 export function Footer() {
@@ -14,10 +15,10 @@ export function Footer() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm font-medium text-gray-500">
-          <a href="#" className="hover:text-primary-500 transition-colors">Terms of Service</a>
-          <a href="#" className="hover:text-primary-500 transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-primary-500 transition-colors">Earnings Disclaimer</a>
-          <a href="#" className="hover:text-primary-500 transition-colors">Contact Support</a>
+          <Link href="/terms" className="hover:text-primary-500 transition-colors">Terms of Service</Link>
+          <Link href="/privacy" className="hover:text-primary-500 transition-colors">Privacy Policy</Link>
+          <Link href="/earnings" className="hover:text-primary-500 transition-colors">Earnings Disclaimer</Link>
+          <Link href="/contact" className="hover:text-primary-500 transition-colors">Contact Support</Link>
         </div>
 
         <div className="text-center max-w-4xl mx-auto text-xs text-gray-600 space-y-4 leading-relaxed">
