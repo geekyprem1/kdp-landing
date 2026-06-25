@@ -11,7 +11,7 @@ const stats = [
   { id: 4, label: "Countries Served", value: 104, icon: Globe2, prefix: "", suffix: "" },
 ];
 
-function AnimatedCounter({ value, prefix = "", suffix = "", duration = 2 }) {
+function AnimatedCounter({ value, prefix = "", suffix = "", duration = 2 }: { value: number, prefix?: string, suffix?: string, duration?: number }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
