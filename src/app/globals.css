@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0B0B0B;
+  --color-foreground: #FFFFFF;
+  
+  --color-primary-50: #fff4e5;
+  --color-primary-100: #ffe8cc;
+  --color-primary-200: #ffc280;
+  --color-primary-300: #ff9d33;
+  --color-primary-400: #ff8a00; /* Main Orange */
+  --color-primary-500: #e67c00;
+  --color-primary-600: #cc6e00;
+  --color-primary-700: #b36100;
+  --color-primary-800: #995300;
+  --color-primary-900: #804500;
+  
+  --color-surface: #141414;
+  --color-surface-hover: #1f1f1f;
+  
+  --font-sans: var(--font-inter);
+  
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0.7) 0%, rgba(15, 15, 15, 0.7) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ffffff, #a3a3a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(to right, #FF8A00, #ffb347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-primary {
+  box-shadow: 0 0 20px rgba(255, 138, 0, 0.4);
+}
+
+.glow-primary-lg {
+  box-shadow: 0 0 40px rgba(255, 138, 0, 0.6);
+}
