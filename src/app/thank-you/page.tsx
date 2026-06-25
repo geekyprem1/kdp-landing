@@ -67,7 +67,7 @@ export default function ThankYouPage() {
           </div>
 
           <a 
-            href="https://app.kdpmafia.com/login" // Placeholder for actual app login URL
+            href="https://kdpmafia.online/login"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center justify-center gap-2 w-full px-8 py-5 bg-gradient-to-r from-primary-500 to-yellow-500 text-black font-black text-xl rounded-xl shadow-[0_0_40px_rgba(255,138,0,0.4)] hover:shadow-[0_0_60px_rgba(255,138,0,0.6)] hover:-translate-y-1 transition-all duration-300"
