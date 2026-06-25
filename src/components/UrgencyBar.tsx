@@ -38,8 +38,8 @@ export function UrgencyBar() {
               <span className="font-bold tracking-wider uppercase text-xs">Closing Soon:</span>
             </div>
             
-            <p className="flex-1 max-w-[500px]">
-              The Lifetime Commercial License is strictly limited. Once the timer hits zero, it reverts to a $97/month subscription.
+            <p className="text-white text-sm font-medium">
+              The <strong className="text-yellow-400">$14.99</strong> Lifetime Offer is strictly limited to the next 17 people. Once filled, it reverts to a <strong className="text-red-400">$99/month</strong> subscription.
             </p>
 
             <div className="flex items-center gap-2 font-mono text-primary-300 font-bold bg-black/40 px-3 py-1 rounded-md border border-primary-500/30">

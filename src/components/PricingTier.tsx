@@ -14,7 +14,7 @@ export function PricingTier() {
             Choose Your <span className="text-primary-500">Unfair Advantage</span>
           </h2>
           <p className="text-xl text-gray-400 font-medium max-w-2xl mx-auto">
-            The launch discount will expire automatically. Once it expires, the price will revert to the standard $97/month subscription.
+            Strictly limited to the first 250 action takers today. Once all seats are filled, the price will revert to the standard $99/month subscription.
           </p>
         </div>
 
@@ -37,11 +37,11 @@ export function PricingTier() {
 
             <div className="text-center mb-8 pb-8 border-b border-white/10">
               <div className="flex justify-center items-center gap-4 mb-2 text-gray-500 font-bold text-2xl line-through decoration-red-600">
-                $97/month
+                $99/month
               </div>
               <div className="flex justify-center items-start">
                 <span className="text-3xl font-bold text-primary-500 mt-2">$</span>
-                <span className="text-7xl font-black text-white tracking-tighter">67</span>
+                <span className="text-7xl font-black text-white tracking-tighter">14.99</span>
               </div>
               <div className="text-primary-400 font-black uppercase tracking-widest text-sm mt-2">
                 One-Time Payment. No Monthly Fees.

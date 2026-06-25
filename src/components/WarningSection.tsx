@@ -21,7 +21,7 @@ export function WarningSection() {
               Warning: Do Not Close This Page
             </h3>
             <p className="text-white/90 font-medium text-lg">
-              If you leave and come back later, the $67 Lifetime Offer may be gone, and you'll be forced to pay the standard $97/month recurring fee.
+              If you leave and come back later, the remaining seats for the $14.99 Lifetime Offer may be filled, and you'll be forced to pay the standard $99/month recurring fee.
             </p>
           </div>
         </motion.div>
