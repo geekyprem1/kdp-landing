@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, PlayCircle } from "lucide-react";
+import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 
 export function HeroCTA() {
