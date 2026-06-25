@@ -10,7 +10,7 @@ export function ValueStack() {
     { name: "The Cover Studio (Design Engine)", value: "$197 Value" },
     { name: "The Launch Kit (Metadata & SEO)", value: "$147 Value" },
     { name: "Keyword Intelligence Suite", value: "$197 Value" },
-    { name: "Lifetime AI Generation Credits", value: "$997 Value" },
+    { name: "High-Volume AI Generation Credits", value: "$997 Value" },
     { name: "Premium Commercial License", value: "$497 Value" },
     { name: "Private Mafia Community Access", value: "$297 Value" },
   ];
