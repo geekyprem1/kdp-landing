@@ -50,12 +50,12 @@ export function PricingTier() {
 
             <ul className="space-y-4 mb-10">
               {[
-                "Unlimited AI Niche & Keyword Searches",
-                "Full Access to All 8 Book Generators",
-                "Unlimited Cover & Interior Downloads",
+                "High-Volume AI Niche & Keyword Research",
+                "Full Access to All Book Generators",
+                "KDP-Ready Cover & Interior Exports",
                 "1-Click KDP Export Engine",
-                "Commercial & Agency Rights Included",
-                "All 6 Fast-Action Bonuses Included",
+                "Commercial License Included",
+                "All Launch Bonuses Included",
                 "Free Lifetime Updates"
               ].map((feature, i) => (
                 <li key={i} className="flex items-start gap-3">

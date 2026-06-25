@@ -36,7 +36,7 @@ export function UrgencyCTA() {
             {/* Left Side: Copy & Button */}
             <div className="flex flex-col justify-center">
               <h2 className="text-3xl sm:text-5xl font-black text-white mb-4 leading-[1.1] tracking-tight">
-                One Click Away From Unlimited <br className="hidden sm:block" />
+                One Click Away From Unstoppable <br className="hidden sm:block" />
                 Book Publishing
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 font-medium mb-8">
