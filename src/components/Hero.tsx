@@ -21,7 +21,7 @@ export function Hero() {
         <div className="flex flex-col items-center mb-16 w-full">
           
           {/* Top: Copy & CTA */}
-          <div className="flex flex-col w-full relative z-20 mb-20">
+          <div className="flex flex-col w-full relative z-20 mb-8">
             <HeroHeadline />
             <HeroCTA />
           </div>

@@ -18,10 +18,12 @@ export function HeroComparison() {
           <div className="text-xs uppercase tracking-widest text-gray-500 font-bold mb-2">The Old Way</div>
           <ul className="space-y-3">
             {[
-              "Multiple expensive subscriptions",
-              "Multiple confusing dashboards",
-              "Manual copy & paste data transfer",
-              "Disconnected, fragile workflow"
+              "8 Different Tools",
+              "Manual Formatting",
+              "Freelancers",
+              "Weeks Of Work",
+              "Guessing Niches",
+              "Expensive Subscriptions"
             ].map((item, i) => (
               <li key={i} className="flex items-center gap-3 text-sm text-gray-400 font-medium">
                 <XCircle className="w-4 h-4 text-red-500/50 shrink-0" />
@@ -40,13 +42,15 @@ export function HeroComparison() {
 
         {/* The New Way */}
         <div className="flex flex-col gap-4">
-          <div className="text-xs uppercase tracking-widest text-primary-500 font-bold mb-2">The New Way</div>
+          <div className="text-xs uppercase tracking-widest text-primary-500 font-bold mb-2">KDP Mafia</div>
           <ul className="space-y-3">
             {[
-              "One unified workspace",
-              "One seamless workflow",
-              "One KDP-ready export",
-              "Everything perfectly connected"
+              "One Connected Platform",
+              "AI Workflow",
+              "Amazon Ready",
+              "Minutes Instead Of Weeks",
+              "Opportunity Intelligence",
+              "Everything Included"
             ].map((item, i) => (
               <li key={i} className="flex items-center gap-3 text-sm text-white font-medium">
                 <CheckCircle2 className="w-4 h-4 text-primary-500 shrink-0" />

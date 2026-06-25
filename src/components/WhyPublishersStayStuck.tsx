@@ -29,8 +29,8 @@ export function WhyPublishersStayStuck() {
               transition={{ delay: 0.1 }}
               className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
             >
-              Why Most Publishers <br />
-              <span className="text-gray-500">Stay Stuck At $500/Month.</span>
+              Most KDP Publishers Never <br />
+              <span className="text-gray-500">Build A Real Business.</span>
             </motion.h2>
 
             <motion.p
@@ -40,7 +40,7 @@ export function WhyPublishersStayStuck() {
               transition={{ delay: 0.2 }}
               className="text-lg text-gray-400 font-medium leading-relaxed mb-8"
             >
-              You don't lack ideas. You lack infrastructure. Most publishers spend 80% of their time managing software instead of actually publishing books.
+              You don't lack ideas. You lack infrastructure. The difference between making $0 and $5,000/month isn't talent—it's having a system. Right now, you're spending 80% of your time fighting with 5 different software tools instead of actually publishing books.
             </motion.p>
 
             <motion.div

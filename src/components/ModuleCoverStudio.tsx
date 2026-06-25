@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Paintbrush, Wand2, MonitorPlay, CheckCircle2, ArrowRight } from "lucide-react";
+import { Paintbrush, Wand2, MonitorPlay, CheckCircle2, ArrowRight, PenTool } from "lucide-react";
 
 export function ModuleCoverStudio() {
   return (
@@ -11,15 +11,15 @@ export function ModuleCoverStudio() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 font-semibold mb-6 text-sm uppercase tracking-widest"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-semibold mb-6 text-sm uppercase tracking-widest"
           >
-            <Paintbrush className="w-4 h-4" />
-            Module 03
+            <PenTool className="w-4 h-4" />
+            Module 03: The Cover Studio™
           </motion.div>
 
           <motion.h2
@@ -27,20 +27,25 @@ export function ModuleCoverStudio() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight"
+            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
           >
-            Cover Studio™
+            Stop Losing Sales To Ugly Covers.
           </motion.h2>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 font-medium leading-relaxed"
+            className="text-lg text-gray-400 font-medium leading-relaxed space-y-4"
           >
-            Stop paying designers $50 per cover. The Cover Studio™ generates premium, vector-quality book covers mathematically formatted to fit your exact page count and trim size.
-          </motion.p>
+            <p>
+              <strong className="text-red-400">The Problem:</strong> You're spending $50-$100 per cover on Fiverr for mediocre designs, or wasting hours fighting with Canva and Photoshop only to have Amazon reject your file because the bleed margins are wrong.
+            </p>
+            <p>
+              <strong className="text-primary-400">The Solution:</strong> Generate stunning, high-converting book covers perfectly formatted for Amazon KDP print specifications, in just a few clicks. No design skills or expensive freelancers required.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-center">

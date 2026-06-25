@@ -1,22 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { PackageOpen, DownloadCloud, FileText, CheckCircle2, ArrowRight } from "lucide-react";
+import { PackageOpen, DownloadCloud, FileText, CheckCircle2, ArrowRight, Rocket } from "lucide-react";
 
 export function ModuleLaunchKit() {
   return (
     <section className="py-24 sm:py-32 bg-[#050505] relative border-b border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-semibold mb-6 text-sm uppercase tracking-widest"
           >
-            <PackageOpen className="w-4 h-4" />
-            Module 04
+            <Rocket className="w-4 h-4" />
+            Module 04: The Launch Kit™
           </motion.div>
 
           <motion.h2
@@ -24,20 +24,25 @@ export function ModuleLaunchKit() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight"
+            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
           >
-            Launch Kit™
+            Never Guess Your Metadata Again.
           </motion.h2>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 font-medium leading-relaxed"
+            className="text-lg text-gray-400 font-medium leading-relaxed space-y-4"
           >
-            Don't fail at the finish line. The Launch Kit™ compiles your interior, cover, and a highly-optimized metadata package into one single export, ready for instant upload to Amazon.
-          </motion.p>
+            <p>
+              <strong className="text-red-400">The Problem:</strong> You spend hours agonizing over titles, subtitles, and those 7 backend keyword slots, only for your book to rank on page 50 because your SEO is weak.
+            </p>
+            <p>
+              <strong className="text-primary-400">The Solution:</strong> The Launch Kit generates perfectly optimized titles, high-converting HTML descriptions, and backend keywords designed to trigger Amazon's algorithm and push your book to page 1.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-center">

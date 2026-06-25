@@ -1,22 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Layers, ArrowRight, Library, Target, CheckCircle2 } from "lucide-react";
+import { Layers, ArrowRight, Library, Target, CheckCircle2, LineChart } from "lucide-react";
 
 export function ModuleScaleBuilder() {
   return (
     <section className="py-24 sm:py-32 bg-black relative border-b border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-semibold mb-6 text-sm uppercase tracking-widest"
           >
-            <Library className="w-4 h-4" />
-            Module 05
+            <LineChart className="w-4 h-4" />
+            Module 05: The Scale Builder™
           </motion.div>
 
           <motion.h2
@@ -24,20 +24,25 @@ export function ModuleScaleBuilder() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight"
+            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
           >
-            Scale Builder™
+            Stop Starting From Scratch Every Time.
           </motion.h2>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 font-medium leading-relaxed"
+            className="text-lg text-gray-400 font-medium leading-relaxed space-y-4"
           >
-            One book is an experiment. A portfolio is a business. The Scale Builder™ automates the creation of book series, box sets, and multi-book bundles to multiply your royalties.
-          </motion.p>
+            <p>
+              <strong className="text-red-400">The Problem:</strong> Most publishers launch a book, make a few sales, and then have to do all the grueling research and formatting again from scratch to build the next one.
+            </p>
+            <p>
+              <strong className="text-primary-400">The Solution:</strong> The Scale Builder acts as your franchise engine. Instantly duplicate your winning assets, repurpose them into new series, and scale your single book into an entire brand network.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-center">

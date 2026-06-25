@@ -11,7 +11,7 @@ export function ModuleOpportunityEngine() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ export function ModuleOpportunityEngine() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-semibold mb-6 text-sm uppercase tracking-widest"
           >
             <Search className="w-4 h-4" />
-            Module 01
+            Module 01: The Opportunity Engine™
           </motion.div>
 
           <motion.h2
@@ -27,20 +27,25 @@ export function ModuleOpportunityEngine() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight"
+            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
           >
-            Opportunity Engine™
+            Find Profitable Keywords In Seconds Instead Of Spending Days Researching.
           </motion.h2>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 font-medium leading-relaxed"
+            className="text-lg text-gray-400 font-medium leading-relaxed space-y-4"
           >
-            Stop guessing what readers want. The Opportunity Engine™ scans Amazon data to instantly validate demand, analyze competition, and extract exact-match keywords before you create a single page.
-          </motion.p>
+            <p>
+              <strong className="text-red-400">The Problem:</strong> You spend hours manually scraping Amazon, guessing which keywords have low competition, only to launch a book that gets buried on page 50.
+            </p>
+            <p>
+              <strong className="text-primary-400">The Solution:</strong> Our algorithm analyzes live Amazon data to instantly validate demand and hand you highly profitable, low-competition keywords on a silver platter.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-center">

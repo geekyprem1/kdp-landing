@@ -8,7 +8,7 @@ export function ModulePublishingStudio() {
     <section className="py-24 sm:py-32 bg-[#050505] relative border-b border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ export function ModulePublishingStudio() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-semibold mb-6 text-sm uppercase tracking-widest"
           >
             <BookOpen className="w-4 h-4" />
-            Module 02
+            Module 02: The Publishing Studio™
           </motion.div>
 
           <motion.h2
@@ -24,20 +24,25 @@ export function ModulePublishingStudio() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight"
+            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
           >
-            Publishing Studio™
+            Your Next Bestseller Shouldn't Take Weeks.
           </motion.h2>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-400 font-medium leading-relaxed"
+            className="text-lg text-gray-400 font-medium leading-relaxed space-y-4"
           >
-            Replace your complex design software. Generate perfect 120-page interiors in minutes. From intricate coloring pages to logic puzzles and guided journals, the Publishing Studio™ handles formatting, margins, and bleed automatically.
-          </motion.p>
+            <p>
+              <strong className="text-red-400">The Problem:</strong> You spend weeks outlining, writing, and formatting manually. Or worse, you spend $1,000+ hiring ghostwriters who deliver generic, unformatted trash that gets 1-star reviews.
+            </p>
+            <p>
+              <strong className="text-primary-400">The Solution:</strong> Generate complete, high-quality, Amazon-ready interiors instantly. Simply enter your validated niche, and watch our specialized AI write and format a full book in minutes.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-center">

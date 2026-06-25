@@ -13,8 +13,8 @@ export function PricingTier() {
           <h2 className="text-4xl sm:text-6xl font-black text-white mb-6 uppercase tracking-tighter">
             Choose Your <span className="text-primary-500">Unfair Advantage</span>
           </h2>
-          <p className="text-xl text-gray-400 font-medium max-w-2xl mx-auto">
-            Strictly limited to the first 250 action takers today. Once all seats are filled, the price will revert to the standard $99/month subscription.
+          <p className="text-xl text-gray-400 font-medium max-w-3xl mx-auto leading-relaxed">
+            You've seen the $3,026 real-world value. But today, you won't pay anywhere near that. This lifetime deal is strictly limited to the next 250 action takers. Once filled, the price reverts to $99/month.
           </p>
         </div>
 

@@ -11,36 +11,37 @@ export function ThePublishingShift() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-24">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-300 font-semibold mb-6 text-sm uppercase tracking-widest"
-          >
-            <span className="w-2 h-2 rounded-full bg-primary-500" />
-            The Market Has Evolved
-          </motion.div>
+          <div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-300 font-semibold mb-6 text-sm uppercase tracking-widest"
+            >
+              <span className="w-2 h-2 rounded-full bg-primary-500" />
+              The Great Market Shift
+            </motion.div>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
-          >
-            The Era of &quot;Just Publish More&quot; <br className="hidden sm:block" />
-            <span className="text-gray-500">Is Officially Over.</span>
-          </motion.h2>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
+            >
+              The Era Of 'Just Publish More' Is <span className="text-primary-500">Dead.</span>
+            </motion.h2>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-lg sm:text-xl text-gray-400 font-medium leading-relaxed"
-          >
-            A few years ago, volume won. Today, everyone has access to AI. The new competitive advantage isn't having an AI tool—it's having a completely integrated publishing infrastructure.
-          </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="text-lg text-gray-400 font-medium leading-relaxed mb-8"
+            >
+              The Amazon algorithm no longer rewards low-effort, mass-published books. To succeed today, you need high-quality interiors, professional covers, and perfect metadata. The winners don't work harder—they work smarter.
+            </motion.p>
+          </div>
         </div>
 
         <div className="grid sm:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto">
