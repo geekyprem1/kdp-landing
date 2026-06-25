@@ -34,8 +34,8 @@ export function FirstCTA() {
               Unlock KDP Mafia Now
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </button>
-            <p className="text-sm text-gray-500 font-bold uppercase tracking-widest mt-2">
-              Warning: Launch Discount Expires Soon
+            <p className="text-sm text-red-500 font-bold uppercase tracking-widest mt-2">
+              Hurry: Early Bird Pricing Increases Every Hour. Reverts to Monthly Subscription Soon.
             </p>
           </div>
         </motion.div>

@@ -1,6 +1,7 @@
 import { UrgencyBar } from "@/components/UrgencyBar";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { NoSkillsBanner } from "@/components/NoSkillsBanner";
 import { VideoSalesLetter } from "@/components/VideoSalesLetter";
 import { HeroSocialProof } from "@/components/HeroSocialProof";
 import { FirstCTA } from "@/components/FirstCTA";
@@ -47,6 +48,7 @@ export default function Home() {
       <UrgencyBar />
       <Navbar />
       <Hero />
+      <NoSkillsBanner />
       <VideoSalesLetter />
       <HeroSocialProof />
       <FirstCTA />

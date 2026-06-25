@@ -67,6 +67,25 @@ export function PricingTier() {
               ))}
             </ul>
 
+            {/* Order Bump */}
+            <div className="mb-8 border-2 border-dashed border-red-500/50 bg-red-500/5 hover:bg-red-500/10 transition-colors rounded-xl p-4 text-left relative cursor-pointer group">
+              <div className="absolute -top-3 right-4 bg-red-600 text-white text-[10px] font-black tracking-widest uppercase px-3 py-1 rounded-full shadow-lg">
+                Highly Recommended
+              </div>
+              <label className="flex items-start gap-3 cursor-pointer w-full">
+                <input type="checkbox" className="w-5 h-5 mt-1 accent-red-600 cursor-pointer shrink-0" defaultChecked />
+                <div>
+                  <h4 className="font-black text-white text-base md:text-sm uppercase flex items-center gap-2 leading-tight">
+                    YES, Add "KDP Income Booster" Add-On
+                  </h4>
+                  <p className="text-sm text-gray-400 mt-2 leading-relaxed">
+                    Unlock the exclusive <strong className="text-white">$10,000 Amazon KDP Case Study</strong>. Discover the exact underground strategy to accelerate your KDP profits in just 30 days. <br/>
+                    <span className="font-black text-red-400 mt-1 block">Just $8.95 One Time (Normally $197)</span>
+                  </p>
+                </div>
+              </label>
+            </div>
+
             <button className="w-full bg-gradient-to-r from-primary-500 to-primary-400 hover:from-primary-400 hover:to-primary-300 text-black font-black uppercase tracking-tight text-xl py-6 rounded-xl shadow-[0_0_40px_rgba(255,138,0,0.4)] hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group mb-6">
               Get Instant Access Now
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />

@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { 
   Search, BookOpen, PenTool, Layout, FileText, BarChart, 
-  Settings, Layers, Box, Cpu, Download, Sparkles 
+  Settings, Layers, Box, Cpu, Download, Sparkles,
+  Globe, UploadCloud, Database
 } from "lucide-react";
 
 export function FeatureOverviewGrid() {
@@ -20,6 +21,9 @@ export function FeatureOverviewGrid() {
     { icon: Sparkles, title: "AI Copywriter" },
     { icon: Settings, title: "Listing Optimizer" },
     { icon: Download, title: "One-Click KDP Export" },
+    { icon: UploadCloud, title: "One-Click Auto Publishing" },
+    { icon: Globe, title: "Multi-Language Scaling" },
+    { icon: Database, title: "AI Metadata Optimizer" },
   ];
 
   return (
@@ -37,7 +41,7 @@ export function FeatureOverviewGrid() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
           {features.map((feature, i) => (
             <motion.div
               key={i}
