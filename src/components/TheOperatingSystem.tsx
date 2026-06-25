@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function TheOperatingSystem() {
   return (
-    <section className="py-24 sm:py-32 bg-[#050505] relative overflow-hidden">
+    <section className="py-24 sm:py-32 bg-[#111111] relative z-10 border-b border-white/5">
       {/* Glow Effects */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-full bg-primary-500/5 blur-[120px] pointer-events-none" />
 

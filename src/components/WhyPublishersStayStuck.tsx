@@ -5,7 +5,7 @@ import { Clock, RefreshCcw, Database, FileX } from "lucide-react";
 
 export function WhyPublishersStayStuck() {
   return (
-    <section className="py-24 sm:py-32 bg-[#0a0a0a] relative overflow-hidden">
+    <section className="py-24 sm:py-32 bg-black relative overflow-hidden border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="grid lg:grid-cols-2 gap-16 items-center">

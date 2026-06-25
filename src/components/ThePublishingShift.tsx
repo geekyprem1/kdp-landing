@@ -5,7 +5,7 @@ import { TrendingUp, Cpu, Workflow } from "lucide-react";
 
 export function ThePublishingShift() {
   return (
-    <section className="py-24 sm:py-32 bg-black relative overflow-hidden border-b border-white/5">
+    <section className="py-24 sm:py-32 bg-[#111111] relative overflow-hidden border-b border-white/5">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl aspect-square bg-primary-500/5 rounded-full blur-[100px] pointer-events-none" />
 
