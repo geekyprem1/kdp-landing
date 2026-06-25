@@ -28,7 +28,7 @@ function Counter({ end, suffix = "", prefix = "" }: { end: number, suffix?: stri
 
 export function HeroCTA() {
   return (
-    <div className="mt-10 flex flex-col items-start w-full relative z-20">
+    <div className="mt-10 flex flex-col items-center w-full relative z-20">
       {/* Primary CTA Button */}
       <motion.button
         initial={{ opacity: 0, y: 20 }}
@@ -64,21 +64,21 @@ export function HeroCTA() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.2, delay: 0.6, ease: "easeInOut" }}
-        className="mt-8 grid grid-cols-3 gap-6 sm:gap-12 w-full border-t border-white/10 pt-6"
+        className="mt-12 flex flex-wrap justify-center gap-12 sm:gap-24 w-full border-t border-white/10 pt-8 max-w-3xl mx-auto"
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <span className="text-3xl font-black text-white tracking-tighter">
             <Counter end={25000} suffix="+" />
           </span>
           <span className="text-xs text-gray-500 uppercase tracking-widest font-bold mt-1">Books Created</span>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <span className="text-3xl font-black text-white tracking-tighter">
             <Counter end={8000} suffix="+" />
           </span>
           <span className="text-xs text-gray-500 uppercase tracking-widest font-bold mt-1">Publishers</span>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <span className="text-3xl font-black text-white tracking-tighter">
             <Counter end={95} suffix="%" />
           </span>

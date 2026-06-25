@@ -11,23 +11,23 @@ import { HeroComparison } from "./hero/HeroComparison";
 
 export function Hero() {
   return (
-    <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 overflow-hidden min-h-[90vh] flex flex-col justify-center bg-[#050505]">
+    <section className="relative pt-8 pb-16 sm:pt-12 sm:pb-24 overflow-hidden min-h-[85vh] flex flex-col justify-center bg-[#050505]">
       {/* Background Depth */}
       <HeroBackground />
 
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 flex-1 flex flex-col justify-center">
         
-        {/* Two-Column Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center mb-16">
+        {/* Full-width Stacked Layout */}
+        <div className="flex flex-col items-center mb-16 w-full">
           
-          {/* Left Column: Copy & CTA */}
-          <div className="flex flex-col relative z-20 order-2 lg:order-1">
+          {/* Top: Copy & CTA */}
+          <div className="flex flex-col w-full relative z-20 mb-20">
             <HeroHeadline />
             <HeroCTA />
           </div>
 
-          {/* Right Column: Live Dashboard & Outputs */}
-          <div className="relative z-10 order-1 lg:order-2 w-full h-[500px] xl:h-[650px] flex items-center justify-center lg:justify-end mt-10 lg:mt-0">
+          {/* Bottom: Live Dashboard & Outputs */}
+          <div className="relative z-10 w-full max-w-5xl h-[400px] sm:h-[500px] xl:h-[650px] flex items-center justify-center">
             {/* The Floating Elements layer */}
             <FloatingOutputs />
             
