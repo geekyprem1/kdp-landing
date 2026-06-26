@@ -24,7 +24,7 @@ export function InstantValueComparison() {
 
   return (
     <section className="py-12 bg-black border-y border-white/5 relative z-20">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
           
           {/* Old Way */}

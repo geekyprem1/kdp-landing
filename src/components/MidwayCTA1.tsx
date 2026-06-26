@@ -16,7 +16,7 @@ export function MidwayCTA1() {
         ))}
       </div>
       
-      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

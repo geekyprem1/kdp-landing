@@ -7,7 +7,7 @@ import { SecurePaymentLogos } from "./SecurePaymentLogos";
 export function MidwayCTA3() {
   return (
     <section className="py-20 relative overflow-hidden bg-background border-y border-white/5">
-      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}

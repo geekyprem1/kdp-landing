@@ -9,7 +9,7 @@ export function PricingTier() {
     <section id="pricing" className="py-24 bg-background relative z-10">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[800px] max-w-[1200px] bg-primary-500/10 blur-[150px] pointer-events-none" />
       
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-6xl font-black text-white mb-6 uppercase tracking-tighter">
             Choose Your <span className="text-primary-500">Unfair Advantage</span>

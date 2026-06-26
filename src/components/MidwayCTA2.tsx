@@ -8,7 +8,7 @@ export function MidwayCTA2() {
     <section className="py-24 relative overflow-hidden bg-[#0a0a0a] border-y border-white/5">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-[800px] bg-red-600/10 blur-[150px] pointer-events-none" />
       
-      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}

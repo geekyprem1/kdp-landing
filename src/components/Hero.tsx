@@ -27,7 +27,7 @@ export function Hero() {
           </div>
 
           {/* Bottom: Live Dashboard & Outputs */}
-          <div className="relative z-10 w-full max-w-5xl h-[400px] sm:h-[500px] xl:h-[650px] flex items-center justify-center">
+          <div className="relative z-10 w-full max-w-5xl h-[500px] xl:h-[650px] flex items-center justify-center mt-8 sm:mt-4">
             {/* The Floating Elements layer */}
             <FloatingOutputs />
             

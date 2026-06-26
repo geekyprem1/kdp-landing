@@ -49,7 +49,7 @@ export function TestimonialWall() {
 
   return (
     <section className="py-24 bg-[#0a0a0a] text-white relative z-10 border-t border-white/5">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-5xl font-black mb-6 leading-tight text-white">
             From <span className="underline decoration-primary-500 decoration-4 underline-offset-8">Zero To $11,954/month</span> — Here's What<br/>Our Members Are Saying About KDP Mafia

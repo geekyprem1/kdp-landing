@@ -32,7 +32,7 @@ export function TransformationComparison() {
       {/* Background glow */}
       <div className="absolute bottom-0 left-1/2 w-full max-w-4xl h-1/2 bg-primary-500/5 blur-[120px] pointer-events-none -translate-x-1/2" />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.div

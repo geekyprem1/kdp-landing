@@ -71,22 +71,22 @@ export function HeroDashboard() {
           </div>
 
           {/* Realistic Platform Metrics */}
-          <div className="grid grid-cols-4 gap-4 mb-8 shrink-0">
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-4 shadow-sm backdrop-blur-sm">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 shrink-0">
+            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-3 sm:p-4 shadow-sm backdrop-blur-sm">
               <div className="text-gray-500 text-[9px] uppercase tracking-widest font-bold mb-1.5">Books Created</div>
-              <div className="text-white font-mono font-bold text-xl">1,245,892</div>
+              <div className="text-white font-mono font-bold text-lg sm:text-xl">1,245,892</div>
             </div>
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-4 shadow-sm backdrop-blur-sm">
+            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-3 sm:p-4 shadow-sm backdrop-blur-sm">
               <div className="text-gray-500 text-[9px] uppercase tracking-widest font-bold mb-1.5">Active Projects</div>
-              <div className="text-white font-mono font-bold text-xl">14,204</div>
+              <div className="text-white font-mono font-bold text-lg sm:text-xl">14,204</div>
             </div>
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-4 shadow-sm backdrop-blur-sm">
+            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-3 sm:p-4 shadow-sm backdrop-blur-sm">
               <div className="text-gray-500 text-[9px] uppercase tracking-widest font-bold mb-1.5">Exported Kits</div>
-              <div className="text-white font-mono font-bold text-xl">849,112</div>
+              <div className="text-white font-mono font-bold text-lg sm:text-xl">849,112</div>
             </div>
-            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-4 shadow-sm backdrop-blur-sm">
+            <div className="bg-white/[0.02] border border-white/5 rounded-xl p-3 sm:p-4 shadow-sm backdrop-blur-sm">
               <div className="text-gray-500 text-[9px] uppercase tracking-widest font-bold mb-1.5">Niches Found</div>
-              <div className="text-white font-mono font-bold text-xl">4.2M</div>
+              <div className="text-white font-mono font-bold text-lg sm:text-xl">4.2M</div>
             </div>
           </div>
 

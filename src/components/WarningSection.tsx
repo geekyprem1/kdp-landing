@@ -6,7 +6,7 @@ import { AlertOctagon } from "lucide-react";
 export function WarningSection() {
   return (
     <section className="py-12 bg-red-600 relative z-10">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+      <div className="max-w-7xl mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}

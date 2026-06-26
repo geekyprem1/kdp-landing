@@ -9,7 +9,7 @@ export function FirstCTA() {
     <section className="py-20 relative overflow-hidden bg-primary-900/10 border-y border-primary-500/10">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&q=80&w=2000')] opacity-5 bg-cover bg-center mix-blend-overlay" />
       
-      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
