@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Check, ShieldCheck, ArrowRight } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function PricingTier() {
   return (
@@ -73,10 +74,7 @@ export function PricingTier() {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </button>
 
-            <div className="flex items-center justify-center gap-2 text-sm text-gray-400 font-medium bg-white/5 py-3 rounded-lg">
-              <ShieldCheck className="w-5 h-5 text-green-500" />
-              100% Risk-Free 30-Day Guarantee
-            </div>
+            <SecurePaymentLogos />
           </motion.div>
         </div>
       </div>

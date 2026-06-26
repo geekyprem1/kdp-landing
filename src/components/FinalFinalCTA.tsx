@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, ShieldCheck, CreditCard } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function FinalFinalCTA() {
   return (
@@ -36,24 +37,7 @@ export function FinalFinalCTA() {
               Hurry: Early Bird Pricing Increases Every Hour. Reverts to Monthly Subscription Soon.
             </p>
 
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-gray-400 font-medium text-sm">
-              <div className="flex items-center gap-2">
-                <ShieldCheck className="w-5 h-5 text-green-500" />
-                30-Day Guarantee
-              </div>
-              <div className="flex items-center gap-2">
-                <CreditCard className="w-5 h-5 text-blue-500" />
-                Secure 256-bit Checkout
-              </div>
-            </div>
-          </div>
-          
-          <div className="flex items-center justify-center gap-4 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-            {/* Fake payment icons using simple divs for visual representation */}
-            <div className="px-3 py-1 bg-white rounded flex items-center font-bold text-blue-800 italic">VISA</div>
-            <div className="px-3 py-1 bg-white rounded flex items-center font-bold text-red-600">MasterCard</div>
-            <div className="px-3 py-1 bg-white rounded flex items-center font-bold text-blue-500">AMEX</div>
-            <div className="px-3 py-1 bg-white rounded flex items-center font-bold text-blue-900">PayPal</div>
+            <SecurePaymentLogos />
           </div>
         </motion.div>
       </div>

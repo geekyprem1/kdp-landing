@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function MidwayCTA2() {
   return (
@@ -28,6 +29,10 @@ export function MidwayCTA2() {
           >
             I Want The Ultimate Shortcut
           </button>
+          
+          <div className="mt-6">
+            <SecurePaymentLogos />
+          </div>
         </motion.div>
       </div>
     </section>

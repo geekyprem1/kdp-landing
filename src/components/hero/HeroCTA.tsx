@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, PlayCircle } from "lucide-react";
 import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
+import { SecurePaymentLogos } from "../SecurePaymentLogos";
 
 export function HeroCTA() {
   const [isLoading, setIsLoading] = useState(false);
@@ -81,6 +82,15 @@ export function HeroCTA() {
             <CheckCircle2 className="w-4 h-4 text-green-500/80" /> {trust}
           </div>
         ))}
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className="mt-8"
+      >
+        <SecurePaymentLogos />
       </motion.div>
 
     </div>

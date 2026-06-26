@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Lock } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function MidwayCTA3() {
   return (
@@ -31,6 +32,10 @@ export function MidwayCTA3() {
             Claim Your Spot Now
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </button>
+          
+          <div className="mt-6">
+            <SecurePaymentLogos />
+          </div>
         </motion.div>
       </div>
     </section>

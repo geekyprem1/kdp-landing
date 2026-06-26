@@ -39,6 +39,7 @@ import { Footer } from "@/components/Footer";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
 
 import { InstantValueComparison } from "@/components/InstantValueComparison";
+import { ExitIntentPopup } from "@/components/ExitIntentPopup";
 
 export default function Home() {
   return (
@@ -91,6 +92,7 @@ export default function Home() {
       <FAQ />
       <FinalFinalCTA />
       <Footer />
+      <ExitIntentPopup />
     </main>
   );
 }

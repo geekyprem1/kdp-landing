@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, ShieldCheck, Monitor, Smartphone, Globe, CreditCard } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 import { useEffect, useState } from "react";
 
 export function UrgencyCTA() {
@@ -56,28 +57,7 @@ export function UrgencyCTA() {
                 </div>
               </button>
 
-              {/* Badges row */}
-              <div className="mt-8 flex flex-col sm:flex-row items-center gap-6 justify-center sm:justify-start">
-                <div className="flex items-center gap-2">
-                  <CreditCard className="w-5 h-5 text-gray-400" />
-                  <span className="text-xs font-bold text-gray-400">VISA / MC / AMEX</span>
-                </div>
-                <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg">
-                  <ShieldCheck className="w-5 h-5 text-yellow-500" />
-                  <span className="text-xs font-bold text-gray-300">30 Day Money Back Guarantee</span>
-                </div>
-              </div>
-
-              {/* Platform icons row */}
-              <div className="mt-6 flex items-center gap-4 justify-center sm:justify-start">
-                <div className="flex gap-3 text-gray-500">
-                  <Smartphone className="w-5 h-5" />
-                  <Monitor className="w-5 h-5" />
-                </div>
-                <div className="text-[10px] font-bold uppercase tracking-widest text-gray-400 border border-gray-700 px-2 py-1 rounded">
-                  Web Based Software
-                </div>
-              </div>
+              <SecurePaymentLogos />
 
             </div>
 

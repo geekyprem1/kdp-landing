@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, AlertTriangle } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function MidwayCTA1() {
   return (
@@ -41,6 +42,10 @@ export function MidwayCTA1() {
             Get KDP Mafia Lifetime Access
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </button>
+          
+          <div className="mt-4">
+            <SecurePaymentLogos />
+          </div>
         </motion.div>
       </div>
     </section>

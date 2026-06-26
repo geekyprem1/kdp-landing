@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Unlock } from "lucide-react";
+import { SecurePaymentLogos } from "./SecurePaymentLogos";
 
 export function FirstCTA() {
   return (
@@ -37,6 +38,7 @@ export function FirstCTA() {
             <p className="text-sm text-red-500 font-bold uppercase tracking-widest mt-2">
               Hurry: Early Bird Pricing Increases Every Hour. Reverts to Monthly Subscription Soon.
             </p>
+            <SecurePaymentLogos />
           </div>
         </motion.div>
       </div>
