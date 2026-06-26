@@ -38,10 +38,10 @@ export function HeroHeadline() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 font-semibold mb-8 text-xs sm:text-sm uppercase tracking-widest backdrop-blur-sm shadow-[0_0_20px_rgba(255,0,0,0.1)]"
+        className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 font-bold mb-8 text-[10px] sm:text-xs uppercase tracking-[0.2em] backdrop-blur-sm shadow-[0_0_20px_rgba(255,138,0,0.1)] text-center max-w-[90vw]"
       >
-        <span className="w-2 h-2 rounded-full bg-red-500 shadow-[0_0_10px_rgba(255,0,0,0.8)] animate-pulse" />
-        The Era Of 'Just Publish More' Is Over
+        <span className="w-2 h-2 rounded-full bg-primary-500 shadow-[0_0_10px_rgba(255,138,0,0.8)] animate-pulse shrink-0" />
+        <span className="truncate sm:whitespace-normal">THE COMPLETE AI OPERATING SYSTEM FOR AMAZON KDP</span>
       </motion.div>
 
       {/* Main Headline */}
@@ -49,13 +49,12 @@ export function HeroHeadline() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-        className="text-4xl sm:text-6xl lg:text-[5rem] font-black tracking-tighter text-white leading-[1.1] mb-8"
+        className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter text-white leading-[1.15] mb-8"
       >
-        Stop Guessing. <br className="hidden sm:block" />Build Your{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 via-primary-500 to-yellow-500 drop-shadow-[0_0_30px_rgba(255,138,0,0.3)]">
-          KDP Empire
-        </span>{" "}
-        Smarter.
+        Publish Amazon KDP Books That <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 via-primary-500 to-yellow-500 drop-shadow-[0_0_30px_rgba(255,138,0,0.3)]">Actually Sell.</span> <br className="hidden lg:block" />
+        <span className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-200 mt-4 block">
+          From Profitable Idea to Published Book.
+        </span>
       </motion.h1>
 
       {/* Subheadline */}
@@ -63,52 +62,12 @@ export function HeroHeadline() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-        className="text-lg sm:text-xl text-gray-300 mb-12 font-medium leading-relaxed max-w-4xl mx-auto"
+        className="text-lg sm:text-xl text-gray-400 mb-12 font-medium leading-relaxed max-w-4xl mx-auto"
       >
-        Turn any idea into an Amazon KDP book in minutes—not weeks. Replace expensive freelancers, disconnected AI tools, endless manual formatting, and guesswork with one AI-powered operating system built to help you publish faster, launch smarter, and scale your royalties.
+        Replace ChatGPT, Book Bolt, Publisher Rocket, Canva, freelancers, and every disconnected KDP tool with one AI platform. Research profitable niches, create professional books, and publish faster—all from a single dashboard.
       </motion.p>
 
-      {/* Animated Proof Bar */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-        className="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 w-full border-y border-white/5 py-8 bg-gradient-to-r from-transparent via-white/[0.02] to-transparent"
-      >
-        <div className="flex flex-col items-center">
-          <span className="text-3xl sm:text-4xl font-black text-white tracking-tighter">
-            <Counter end={25000} suffix="+" />
-          </span>
-          <span className="text-[10px] sm:text-xs text-primary-400/80 uppercase tracking-widest font-bold mt-1">Books Created</span>
-        </div>
-        
-        <div className="hidden sm:block w-px h-12 bg-white/10" />
-        
-        <div className="flex flex-col items-center">
-          <span className="text-3xl sm:text-4xl font-black text-white tracking-tighter">
-            <Counter end={8000} suffix="+" />
-          </span>
-          <span className="text-[10px] sm:text-xs text-primary-400/80 uppercase tracking-widest font-bold mt-1">Publishers</span>
-        </div>
-        
-        <div className="hidden md:block w-px h-12 bg-white/10" />
-        
-        <div className="flex flex-col items-center">
-          <span className="text-3xl sm:text-4xl font-black text-white tracking-tighter">
-            <Counter end={4.2} suffix="M+" />
-          </span>
-          <span className="text-[10px] sm:text-xs text-primary-400/80 uppercase tracking-widest font-bold mt-1">Niches Analyzed</span>
-        </div>
-        
-        <div className="hidden sm:block w-px h-12 bg-white/10" />
-        
-        <div className="flex flex-col items-center">
-          <span className="text-3xl sm:text-4xl font-black text-white tracking-tighter">
-            <Counter end={2.5} suffix="M+" />
-          </span>
-          <span className="text-[10px] sm:text-xs text-primary-400/80 uppercase tracking-widest font-bold mt-1">AI Generations</span>
-        </div>
-      </motion.div>
+
 
     </div>
   );

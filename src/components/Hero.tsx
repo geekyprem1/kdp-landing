@@ -26,14 +26,7 @@ export function Hero() {
             <HeroCTA />
           </div>
 
-          {/* Bottom: Live Dashboard & Outputs */}
-          <div className="relative z-10 w-full max-w-5xl h-[500px] xl:h-[650px] flex items-center justify-center mt-8 sm:mt-4">
-            {/* The Floating Elements layer */}
-            <FloatingOutputs />
-            
-            {/* The Live Dashboard Mockup */}
-            <HeroDashboard />
-          </div>
+
 
         </div>
 

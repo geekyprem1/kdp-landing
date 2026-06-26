@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, PlayCircle } from "lucide-react";
 import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
-import { SecurePaymentLogos } from "../SecurePaymentLogos";
 
 export function HeroCTA() {
   const [isLoading, setIsLoading] = useState(false);
@@ -46,7 +45,7 @@ export function HeroCTA() {
               </>
             ) : (
               <>
-                Start Building Your KDP Empire
+                Start Publishing Faster
                 <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-2 transition-transform duration-300" />
               </>
             )}
@@ -63,35 +62,53 @@ export function HeroCTA() {
         </button>
       </motion.div>
 
-      {/* Premium Trust Cards Strip */}
+      {/* Microcopy */}
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+        className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400 font-medium mb-12"
+      >
+        <span className="flex items-center gap-1.5"><span className="text-green-500">✅</span> No technical skills required</span>
+        <span className="hidden sm:inline">•</span>
+        <span className="flex items-center gap-1.5"><span className="text-green-500">✅</span> KDP-Ready Exports</span>
+        <span className="hidden sm:inline">•</span>
+        <span className="flex items-center gap-1.5"><span className="text-green-500">✅</span> Replace 10+ KDP Tools</span>
+      </motion.div>
+
+      {/* Trust Cards */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        className="flex flex-wrap justify-center gap-x-6 gap-y-3 w-full max-w-4xl mx-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-5xl mx-auto mb-16"
       >
         {[
-          "Commercial License",
-          "Amazon Ready Exports",
-          "No Design Skills Needed",
-          "Cloud Based",
-          "One-Time Purchase",
-          "30+ AI Publishing Tools"
+          { title: "25+ AI Tools", desc: "Everything needed for Amazon KDP" },
+          { title: "End-to-End Workflow", desc: "From niche research to publishing" },
+          { title: "One-Click KDP Export", desc: "Ready-to-upload PDF & metadata" },
+          { title: "Built for Serious Publishers", desc: "Scale faster with one platform" }
         ].map((trust, i) => (
-          <div key={i} className="flex items-center gap-2 text-sm text-gray-400 font-medium">
-            <CheckCircle2 className="w-4 h-4 text-green-500/80" /> {trust}
+          <div key={i} className="bg-white/[0.02] border border-white/5 p-4 rounded-xl text-center sm:text-left flex flex-col items-center sm:items-start">
+            <h4 className="text-white font-bold text-sm mb-1">{trust.title}</h4>
+            <p className="text-gray-500 text-xs">{trust.desc}</p>
           </div>
         ))}
       </motion.div>
 
+      {/* Comparison Strip */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="mt-8"
+        transition={{ duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
+        className="w-full max-w-5xl mx-auto border-t border-b border-white/5 py-6 bg-gradient-to-r from-transparent via-white/[0.02] to-transparent text-center"
       >
-        <SecurePaymentLogos />
+        <span className="text-gray-400 font-medium text-sm sm:text-base">
+          <span className="text-white font-bold">Replace:</span> ChatGPT <span className="text-primary-500 mx-2">•</span> Book Bolt <span className="text-primary-500 mx-2">•</span> Publisher Rocket <span className="text-primary-500 mx-2">•</span> Canva <span className="text-primary-500 mx-2">•</span> Midjourney <span className="text-primary-500 mx-2">•</span> Freelancers <span className="text-primary-500 mx-2">•</span> Formatting Tools
+        </span>
       </motion.div>
+
+
 
     </div>
   );
